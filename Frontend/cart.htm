@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shopping Cart</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <header>
+        <h1>Shopping Cart</h1>
+        <nav>
+            <a href="index.htm">Back to Store</a>
+        </nav>
+    </header>
+
+    <main>
+        <section class="cart-items">
+            <!-- Cart Items Will Be Injected Here -->
+        </section>
+        <h2>Total: $<span id="cart-total">0.00</span></h2>
+
+        <!-- Checkout Form -->
+        <form id="checkout-form">
+            <input type="text" placeholder="Full Name" required>
+            <input type="email" placeholder="Email" required>
+            <button type="submit">Pay Now</button>
+        </form>
+    </main>
+
+
+    <script src="cart.js"></script>
+</body>
+</html>

@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Welcome to Digital World</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- ✅ Navbar -->
+    <header>
+        <div class="logo">🛍 Shopping </div>
+        <input type="text" placeholder="Search products..." class="search-box">
+        <nav>
+            <a href="#">Home</a>
+            <a href="#">Categories</a>
+            <a href="cart.htm">Cart 🛒 (<span id="cart-count">0</span>)</a>
+        </nav>
+    </header>
+
+    <!-- ✅ Category Section -->
+    <section class="categories">
+        <div class="category">
+            <img src="image/mobile-icon.png" alt="Mobiles">
+            <p>Mobiles</p>
+        </div>
+        <div class="category">
+            <img src="image/laptop-icon.png" alt="Laptops">
+            <p>Laptops</p>
+        </div>
+        <div class="category">
+            <img src="image/fashion-icon.png" alt="Fashion">
+            <p>Fashion</p>
+        </div>
+    </section>
+
+    <!-- ✅ Image Section -->
+    <section class="image-gallery">
+        <h2>Best Sellers</h2>
+        <div class="image-container">
+            <img src="image/smartphone.jpg" alt="Smartphone">
+            <img src="image/laptop.jpg" alt="Laptop">
+            <img src="image/headphones.jpg" alt="Headphones">
+        </div>
+    </section>
+
+    <!-- ✅ Product Listing -->
+    <main>
+        <section class="products">
+            <!-- Products will be injected dynamically using script.js -->
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2025 Shopping | All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
